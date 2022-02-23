@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { Container, Typography } from '@material-ui/core';
 import store from './state/store';
 import NewsList from './components/NewsList';
-// import { Task2 } from './Task2';
+import { Task2 } from './Task2';
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
             <Container maxWidth="md">
                 <Typography variant="h4">Hacker News Topstories</Typography>
                 <NewsList />
-                {/* <Task2 /> */}
+                <Task2 />
             </Container>
         </Provider>
     );
